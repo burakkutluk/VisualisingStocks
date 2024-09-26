@@ -4,8 +4,8 @@ This project is a single-page web app developed with Dash, a Python framework, d
 
 ## Tech Stacks
 
-**Python
-**Dash
-**yfinance
-**HTML
-**CSS
+**Python**
+**Dash**
+**yfinance**
+**HTML**
+**CSS**
