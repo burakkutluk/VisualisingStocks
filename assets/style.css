@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav{
+    background-color: #120119;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 25vw;
+    align-items: center;
+    position: fixed;
+  }
+
+  .start{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: larger;
+  color: rgb(248, 244, 244);
+  }
+ .nav .stock-input{
+    display: flex;
+    align-self: left;
+    margin-bottom: 10px;
+    
+  }
+  .nav .stock-input input {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px 0 0 5px;
+}
+.nav .stock-input button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #262670;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.nav .stock-input button:hover {
+    background-color: #0b0b47;
+}
+
+.nav .date-input {
+    height: 50px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+.nav .selectors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav .selectors input {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav .selectors button {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left:10px;
+    background-color: #262670;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav .selectors button:hover {
+    background-color: #0b0b47;
+}
+
+.nav .forecast-input {
+    display: flex;
+    align-self: left;
+    margin-bottom: 10px;
+}
+.nav .forecast-input input {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px 0 0 5px;
+}
+
+.nav .forecast-input button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #262670;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}  
+
+.nav .forecast-input button:hover {
+    background-color: #0b0b47;
+}
+
+
+.header{
+    margin-top: 0;
+    margin-left: 30%;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.header .company-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #120119;
+}
+.header #description {
+    text-align: justify;
+    line-height: 140%;
+}
+
+#graphs-content{
+    
+    margin-left: 26%;
+    margin-right: 2px;
+    
+}
+
+#main-content{
+    margin-left: 26%;
+    margin-right: 2px;
+}
+
+#forecast-content{
+    margin-left: 26%;
+    margin-right: 5px;
+}
